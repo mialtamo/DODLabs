@@ -20,7 +20,7 @@
             "properties": {
                 "mode": "Incremental",
                 "templateLink": {
-                    "uri":"[concat('https://raw.githubusercontent.com/USAF690COS/AzureLabs/master/ArmTemplates/VM%20Templates/', parameters('vmList')[copyIndex()], '/azuredeploy.json')]",
+                    "uri":"[concat('https://raw.githubusercontent.com/mialtamo/DODLabs/master/ArmTemplates/VM%20Templates/', parameters('vmList')[copyIndex()], '/azuredeploy.json')]",
                     "contentVersion":"1.0.0.0"
                 }
             },
