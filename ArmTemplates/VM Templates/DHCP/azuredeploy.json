@@ -6,8 +6,8 @@
     "variables": {
       "rgName": "[resourceGroup().name]",
       "location": "[resourceGroup().location]",
-      "snapshotResourceGroup": "[concat('vmImages-', variables('location'))]",
-      "storageAccountName": "[concat('vmimagevhds', variables('location'))]",
+      "snapshotResourceGroup": "DOD-vmImages",
+      "storageAccountName": "dodvmimages",
       "storageAccountResourceID": "[resourceId(variables('snapshotResourceGroup'), 'Microsoft.Storage/storageAccounts', variables('storageAccountName'))]",
       "vmName": "DHCP",
       "osType": "Windows",
